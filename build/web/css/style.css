@@ -1,0 +1,68 @@
+
+.panel {
+  margin-bottom: 0;
+}
+
+.bottom-elem {
+  margin-bottom: 0;
+}
+
+.menu-spacer {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.bar-match {
+  background-color: #333333;
+}
+
+#editModal {
+  position: fixed;
+  top: 10% !important;
+  width: 45%;
+}
+
+input[type="text"] {
+  width: 50%;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+input#share {
+  margin-left: 2rem;
+}
+
+#crewData {
+  margin-left: 15%;
+}
+
+#editModalButton {
+  margin-left: 49%;
+  outline:none;
+}
+
+.saveButton {
+  background-color: red;
+}
+
+.editButton{
+  background-color: green;
+}
+
+.saveButton:focus {
+  background-color: red;
+}
+
+.editButton:focus {
+  background-color: green;
+}
+
+.saveButton:active {
+  background-color: red;
+}
+
+.editButton:active {
+  background-color: green;
+}
